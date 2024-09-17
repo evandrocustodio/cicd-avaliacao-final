@@ -1,5 +1,9 @@
-> git branch
+##### GIT GRAPH
+![image](https://github.com/user-attachments/assets/026425d7-2da6-4adc-abc2-d48a36b0e340)
+
+##### BRANCHS
 ```
+git branch
   develop
   featureA
   featureB
@@ -7,6 +11,62 @@
 * main
   release
 ```
+#### BRANCHS 
+##### MAIN
+```
+git checkout main
+ls
+
+ARQUIVO01.txt  ARQUIVO04.txt  ARQUIVO07.txt  ARQUIVO10.txt  ARQUIVO13.txt  ARQUIVO16.txt  ARQUIVO19.txt
+ARQUIVO02.txt  ARQUIVO05.txt  ARQUIVO08.txt  ARQUIVO11.txt  ARQUIVO14.txt  ARQUIVO17.txt  ARQUIVO20.txt
+ARQUIVO03.txt  ARQUIVO06.txt  ARQUIVO09.txt  ARQUIVO12.txt  ARQUIVO15.txt  ARQUIVO18.txt  ARQUIVO21.txt
+```
+
+##### HOTFIX
+```
+git checkout hotfix
+ls
+
+ARQUIVO01.txt  ARQUIVO02.txt  ARQUIVO03.txt  ARQUIVO07.txt  ARQUIVO08.txt
+```
+
+##### DEVELOP
+```
+git checkout develop
+ls
+
+ARQUIVO01.txt  ARQUIVO04.txt  ARQUIVO07.txt  ARQUIVO10.txt  ARQUIVO13.txt  ARQUIVO16.txt  ARQUIVO19.txt
+ARQUIVO02.txt  ARQUIVO05.txt  ARQUIVO08.txt  ARQUIVO11.txt  ARQUIVO14.txt  ARQUIVO17.txt  ARQUIVO20.txt
+ARQUIVO03.txt  ARQUIVO06.txt  ARQUIVO09.txt  ARQUIVO12.txt  ARQUIVO15.txt  ARQUIVO18.txt  
+```
+
+##### FEATURE A
+```
+git checkout featureA
+ls
+
+ARQUIVO01.txt  ARQUIVO02.txt  ARQUIVO03.txt  ARQUIVO04.txt  ARQUIVO09.txt  ARQUIVO12.txt  ARQUIVO13.txt
+```
+
+##### FEATURE B
+```
+git checkout featureA
+ls
+
+ARQUIVO01.txt  ARQUIVO03.txt  ARQUIVO05.txt  ARQUIVO10.txt  ARQUIVO14.txt  ARQUIVO20.txt
+ARQUIVO02.txt  ARQUIVO04.txt  ARQUIVO06.txt  ARQUIVO11.txt  ARQUIVO19.txt
+```
+
+##### RELEASE
+```
+git checkout release
+ls
+
+ARQUIVO01.txt  ARQUIVO03.txt  ARQUIVO07.txt  ARQUIVO09.txt  ARQUIVO13.txt  ARQUIVO16.txt  ARQUIVO18.txt
+ARQUIVO02.txt  ARQUIVO04.txt  ARQUIVO08.txt  ARQUIVO12.txt  ARQUIVO15.txt  ARQUIVO17.txt
+```
+
+##### GIT LOG GRAPH
 
 > git log --graph --decorate --oneline
 ```
